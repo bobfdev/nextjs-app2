@@ -4,7 +4,7 @@ const DUMMY_MEETUPS = [
     {
         id: 'm1',
         title: 'First Meetup',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/The_Perot_Museum_of_Nature_and_Science_in_Dallas%2C_Texas_LCCN2014633934.tif/lossy-page1-640px-The_Perot_Museum_of_Nature_and_Science_in_Dallas%2C_Texas_LCCN2014633934.tif.jpg',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/The_Perot_Museum_of_Nature_and_Science_in_Dallas%2C_Texas_LCCN2014633934.tif/lossy-page1-320px-The_Perot_Museum_of_Nature_and_Science_in_Dallas%2C_Texas_LCCN2014633934.tif.jpg',
         address: '2201 N Field St, Dallas, TX 75201',
         description: 'first meetup of the year',
     },
@@ -18,7 +18,7 @@ const DUMMY_MEETUPS = [
 ];
 
 function HomePage() {
-    return <MeetupList meetups={DUMMY_MEETUPS} />
+    return  <MeetupList meetups={DUMMY_MEETUPS} />; 
 }
 
 export default HomePage;
